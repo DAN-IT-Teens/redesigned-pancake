@@ -1,0 +1,1 @@
+const b=document.querySelector(".header__menu-button"),q=document.querySelector(".header__menu");b.addEventListener("click",()=>{q.classList.toggle("hiden")}),700<=window.innerWidth&&q.classList.remove("hiden");
